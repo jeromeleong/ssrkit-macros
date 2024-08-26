@@ -1,11 +1,13 @@
 [package]
-name = "ssrkit"
+name = "ssrkit-macros"
 version = "0.1.0"
 edition = "2021"
 authors = ["Jerome Leong <jeromeleong1998@gmail.com>"]
+description = "Macros for SsrKit "
+repository = "https://github.com/jeromeleong/ssrkit-macros"
 license = "MIT"
-keywords = ["ssr", "web"]
-categories = ["web-programming"]
+keywords = ["macros","ssrkit"]
+categories = ["development-tools::procedural-macro-helpers"]
 
 [lib]
 proc-macro = true
