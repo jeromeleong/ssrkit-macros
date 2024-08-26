@@ -1,0 +1,17 @@
+[package]
+name = "ssrkit"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jerome Leong <jeromeleong1998@gmail.com>"]
+license = "MIT"
+keywords = ["ssr", "web"]
+categories = ["web-programming"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0.0", features = ["full"] }
+quote = "1.0"
+proc-macro2 = "1.0"
+serde_json = "1.0"
